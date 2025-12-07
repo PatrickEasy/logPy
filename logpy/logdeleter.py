@@ -28,5 +28,6 @@ def delete_log_files(folders=None):
 # delete_log_files()  # Deletes log files in the current directory
 # delete_log_files("path/to/your/folder")  # Deletes log files in a specific folder
 # delete_log_files(["path/to/your/folder1", "path/to/your/folder2"])  # Deletes log files in multiple folders
+
 if __name__ == "__main__":
     delete_log_files()
