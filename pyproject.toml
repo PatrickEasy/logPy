@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logpy-utils"
+version = "0.1.0"
+description = "Simple set of Python scripts to automatically create, record and delete message logs from python scripts"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [
+    {name = "PatrickEasy"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/PatrickEasy/logPy"
+Repository = "https://github.com/PatrickEasy/logPy"
